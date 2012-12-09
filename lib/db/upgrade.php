@@ -1513,5 +1513,9 @@ function xmldb_main_upgrade($oldversion) {
         upgrade_main_savepoint(true, 2012120300.01);
     }
 
+    // Moodle v2.4.0 release upgrade line
+    // Put any upgrade step following this
+
+
     return true;
 }
